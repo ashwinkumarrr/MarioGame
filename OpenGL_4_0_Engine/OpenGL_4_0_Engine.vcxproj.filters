@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d80862d0-b491-409b-a453-e3a3d6f25187}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\Logger.cpp" />
+    <ClCompile Include="src\app\Engine.cpp" />
+    <ClCompile Include="src\app\FrameWork.cpp" />
+    <ClCompile Include="src\app\GameComponent.cpp" />
+    <ClCompile Include="src\graphics\Graphics.cpp" />
+    <ClCompile Include="src\inputs\input_manager.cpp" />
+    <ClCompile Include="src\inputs\KeyBoardState.cpp" />
+    <ClCompile Include="src\inputs\MouseState.cpp" />
+    <ClCompile Include="src\maths\MathCore.cpp" />
+    <ClCompile Include="src\graphics\OGL.cpp" />
+    <ClCompile Include="src\graphics\RecTangle.cpp" />
+    <ClCompile Include="src\graphics\Shader.cpp" />
+    <ClCompile Include="src\managers\ShaderManager.cpp" />
+    <ClCompile Include="src\graphics\SpriteBatch.cpp" />
+    <ClCompile Include="src\graphics\TextureLoader.cpp" />
+    <ClCompile Include="src\managers\TextureManager.cpp" />
+    <ClCompile Include="src\graphics\Camera.cpp" />
+    <ClCompile Include="src\Component.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\managers\EntityManager.cpp" />
+    <ClCompile Include="src\maths\Vec3.cpp" />
+    <ClCompile Include="src\maths\Vec3.cpp" />
+    <ClCompile Include="src\graphics\Sprite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SystemDefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\debug\Logger.h" />
+    <ClInclude Include="src\app\Engine.h" />
+    <ClInclude Include="src\app\FrameWork.h" />
+    <ClInclude Include="src\app\GameComponent.h" />
+    <ClInclude Include="src\graphics\Graphics.h" />
+    <ClInclude Include="src\inputs\input_manager.h" />
+    <ClInclude Include="src\inputs\KeyBoardState.h" />
+    <ClInclude Include="src\inputs\Keys.h" />
+    <ClInclude Include="src\inputs\MouseState.h" />
+    <ClInclude Include="src\maths\MathCore.h" />
+    <ClInclude Include="src\graphics\OGL.h" />
+    <ClInclude Include="src\graphics\RecTangle.h" />
+    <ClInclude Include="src\graphics\Shader.h" />
+    <ClInclude Include="src\managers\ShaderManager.h" />
+    <ClInclude Include="src\graphics\SpriteBatch.h" />
+    <ClInclude Include="src\graphics\TextureLoader.h" />
+    <ClInclude Include="src\managers\TextureManager.h" />
+    <ClInclude Include="src\graphics\Camera.h" />
+    <ClInclude Include="src\Component.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\managers\EntityManager.h" />
+    <ClInclude Include="src\maths\Vec3.h" />
+    <ClInclude Include="src\maths\Vec3.h" />
+    <ClInclude Include="src\graphics\Sprite.h" />
+  </ItemGroup>
+</Project>
